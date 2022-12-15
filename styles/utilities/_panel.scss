@@ -1,0 +1,9 @@
+.o-panel {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media (min-width:1280px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,50 @@
+._pb-100 {
+  padding-bottom: 1.25rem;
+}
+._pl-200 {
+  padding-left: 2rem;
+}
+._pr-200 {
+  padding-left: 2rem;
+}
+
+._mt-60 {
+  margin-top: 60px;
+}
+
+@media (min-width: 1000px) {
+  ._md\:flex {
+    display: flex;
+
+    &.justify-end {
+      justify-content: end;
+    }
+  }
+  ._md\:pl-200 {
+    padding-left: 2rem;
+  }
+  ._md\:pr-200 {
+    padding-right: 2rem;
+  }
+
+  ._md\:aligns-end {
+    align-self: end;
+  }
+}
+
+._layer-200 {
+  position: relative;
+  z-index: 2;
+}
+._layer-400 {
+  position: relative;
+  z-index: 4;
+}
+._layer-600 {
+  position: relative;
+  z-index: 6;
+}
+._layer-1000 {
+  position: relative;
+  z-index: 100;
+}

@@ -1,0 +1,10 @@
+.c-gallery {
+  width: 1185px;
+  max-width: 100%;
+  transition: all 400ms ease-out;
+  transform: translateY(20px);
+
+  .content {
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+._auto-grid,
+[data-grid="auto"] {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size, 16rem), 1fr)
+  );
+  grid-gap: calc(2rem + 8px);
+}
+
+// @supports (display: grid) {
+// ._auto-grid>*,
+// [data-grid="auto"]>* {
+//   max-width: 25rem;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// ._auto-grid>*+*,
+// [data-grid="auto"]>*+* {
+//   margin-top: 1rem;
+// }
+
+// ._auto-grid>*,
+// [data-grid="auto"]>* {
+//   max-width: unset;
+//   margin: unset;
+// }
+// }
+
+// @media (max-width: 1000px) {
+//   ._md\:grid {
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }

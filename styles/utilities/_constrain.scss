@@ -1,0 +1,14 @@
+.o-constrain {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 32px;
+  padding-bottom: 48px;
+
+  &.-narrow {
+    max-width: 1185px;
+    padding: 0;
+  }
+}
+.full-width {
+  width: 1185px;
+}
