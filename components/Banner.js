@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Headline from "../components/headline";
+import Headline from "../components/Headline";
 import BannerIntro from "./BannerIntro";
 import CTA from "./CTA";
 
