@@ -19,7 +19,7 @@ export default function Document() {
   
           __html: `
             window.SnipcartSettings = {
-                publicApiKey: "MDAzY2RmOGQtZWNjZi00NDhlLWJjNzItZjk3Y2IxYzQ1ODFjNjM4MTE2NDMzMjU4NjI0MTQw",
+                publicApiKey: "your-public-key",
                 loadStrategy: "on-user-interaction",
                 modalStyle: "side",
             };
